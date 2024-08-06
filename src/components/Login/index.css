@@ -1,0 +1,144 @@
+.sign-in-page-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.side-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  height: 100vh;
+}
+
+.sign-in-main-header {
+  color: #000;
+  font-family: 'Roboto';
+
+  font-weight: 700;
+}
+
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  background-color: #f7f7fa;
+}
+
+.side-bar-header {
+  color: #fff;
+  font-family: 'Roboto';
+
+  font-weight: 700;
+}
+.greeting-text {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-with-another-accounts {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-right: 20px;
+  width: 125px;
+}
+
+.google-png {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.button-text {
+  color: #babbc0;
+  font-family: 'Roboto';
+  font-size: 11px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.greeting-text {
+  font-size: 20px;
+  color: #181616;
+  font-family: 'Roboto';
+}
+
+.input-label {
+  color: #181616;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.user-input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #babbc0;
+  outline: none;
+}
+
+.forgot-text {
+  color: #59b4f5;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+}
+.login-button {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: 20px;
+  background-color: #152850;
+  color: white;
+  border: none;
+}
+
+.messages-text {
+  color: #151616;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.register-text {
+  color: #83c2f2;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+}
