@@ -6,11 +6,10 @@
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .dashboard-container{
+  .dashboard-container {
     width: 110%;
   }
-
-  }
+}
 .side-bar-container {
   display: none;
   flex-direction: column;
@@ -193,8 +192,8 @@
   width: 40%;
 }
 @media screen and (min-width: 768px) {
-  .charct-container{
-   width: 70%;
+  .charct-container {
+    width: 70%;
   }
 }
 
